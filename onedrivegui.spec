@@ -18,7 +18,7 @@ BuildRequires:	python%{py_ver}dist(pip)
 #BuildRequires:	python%{py_ver}dist(setuptools)
 #BuildRequires:	python%{py_ver}dist(wheel)
 
-#Requires:	onedrive
+Requires:	onedrive
 Requires:	pyside6-devel
 Requires:	shiboken6
 Requires:	python%{py_ver}dist(requests)
