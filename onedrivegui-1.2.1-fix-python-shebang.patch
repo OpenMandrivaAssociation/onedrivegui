@@ -1,0 +1,9 @@
+diff -rupN OneDriveGUI-1.2.1.old/src/OneDriveGUI.py OneDriveGUI-1.2.1/src/OneDriveGUI.py
+--- OneDriveGUI-1.2.1.old/src/OneDriveGUI.py	2025-06-16 13:23:57.000000000 +0200
++++ OneDriveGUI-1.2.1/src/OneDriveGUI.py	2025-08-30 15:53:27.229581503 +0200
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python3
++#!/usr/bin/python3
+ 
+ import os
+ import sys
