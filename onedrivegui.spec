@@ -2,15 +2,15 @@
 
 Summary:	A simple GUI for OneDrive Linux client, with multi-account support
 Name:	onedrivegui
-Version:	1.3.0
+Version:	1.3.1
 Release:	1
-License:	GPLv3
+License:	GPLv3+
 Group:	Graphical desktop/KDE
 Url:		https://github.com/bpozdena/OneDriveGUI
 Source0:	https://github.com/bpozdena/OneDriveGUI/archive/v%{version}/%{sname}-%{version}.tar.gz
 Patch0:	onedrivegui-1.2.1-fix-python-shebang.patch
-Patch1:	onedrivegui-1.3.0-refactor-logging-levels.patch
-Patch2:	onedrivegui-1.3.0-update-tray-and-tooltip-only-if-needed.patch
+#Patch1:	onedrivegui-1.3.0-refactor-logging-levels.patch
+#Patch2:	onedrivegui-1.3.0-update-tray-and-tooltip-only-if-needed.patch
 BuildRequires:	imagemagick
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{py_ver}dist(pip)
