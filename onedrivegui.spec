@@ -2,7 +2,7 @@
 
 Summary:	A simple GUI for OneDrive Linux client, with multi-account support
 Name:	onedrivegui
-Version:	1.3.1
+Version:	1.3.2
 Release:	1
 License:	GPLv3+
 Group:	Graphical desktop/KDE
@@ -55,7 +55,7 @@ Feature highlights:
 #-----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n  %{sname}-%{version}
+%autosetup -p1 -n OneDriveGUI-1.3.2
 
 
 %build
